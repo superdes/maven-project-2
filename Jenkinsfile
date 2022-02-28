@@ -41,11 +41,11 @@ pipeline {
       }
 
     }
-    stage('Approval') {
-      steps {
-        input('Do you want to proceed?')
-      }
-    }
+//     stage('Approval') {
+//       steps {
+//         input('Do you want to proceed?')
+//       }
+//     }
     stage('Deploy to PROD') {
       environment {
         HOSTS = "prod"
