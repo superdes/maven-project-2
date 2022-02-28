@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="header">
-  <h1>Sample Complex1 Java Webapp</h1>
+  <h1>Sample Java Webapp</h1>
   <p>Hello Desmond World!</p>
 </div>
 </body>
